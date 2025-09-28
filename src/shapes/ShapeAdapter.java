@@ -8,11 +8,11 @@ public class ShapeAdapter implements ShapeDrawer {
     }
     @Override
     public void drawCircle() {
-        oldDrawer.drawCircle(); // используем старую реализацию
+        oldDrawer.drawCircle(); // we use the old implementation
     }
     @Override
     public void drawSquare() {
-        oldDrawer.drawSquare(); // используем старую реализацию
+        oldDrawer.drawSquare(); // we use the old implementation
     }
     @Override
     public void drawTriangle() {
